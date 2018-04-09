@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <header class="splash">
+
+    </header>
+
+    <main class="constrained">
+      <%= archieml.qa.intro %>
+
+      <section class="scenario">
+        <h2>Test your knowledge</h2>
+        <%= archieml.qa.scenario %>
+      </section>
+
+      <div class="questions">
+        <%
+        var makeButton = function(val) {
+          var isCorrect = !!val.match(/\s+CORRECT/);
+          var text = val.replace(/\s+CORRECT/, "");
+          return `<button value="${isCorrect ? "correct" : "" }">${text}</button>`;
+        }
+        %>
+        <% archieml.qa.questions.forEach(function(row) { %>
+        <div class="question">
+          <div class="text">Q: <%= row.q %></div>
+          <div class="options">
+            <% row.options.forEach(function(o) { print(makeButton(o)) }) %>
+          </div>
+          <div class="answer"><%= t.renderMarkdown(row.a) %></div>
+        </div>
+        <% }) %>
+      </div>
+
+      <div class="closer">
+        <%= t.renderMarkdown(archieml.qa.closer) %>
+      </div>
+    </main>
+
+    <%= t.include("partials/_navBottom.html") %>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

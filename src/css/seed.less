@@ -1,0 +1,79 @@
+@import "seattletimes";
+
+.constrained {
+  max-width: 800px;
+  margin: auto;
+}
+
+.question {
+  padding: 24px 0;
+  margin-top: 16px;
+  border-top: 1px dotted @df-light-gray;
+  font-family: @df-sans;
+
+  .text {
+    font-weight: bold;
+  }
+
+  .options {
+    text-align: center;
+    padding: 12px 0;
+
+    button {
+      background: white;
+      border: 1px solid @df-light-gray;
+      padding: 8px 16px;
+      margin: 0 12px;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover, &:focus:not(:disabled) {
+        background: @df-light-gray;
+      }
+
+      &:disabled {
+        cursor: default;
+      }
+    }
+
+    &.answered {
+
+      .chosen {
+        background: @df-light-gray;
+        border: 3px solid @df-middle-gray;
+
+        &::before {
+          content: "✘ ";
+        }
+      }
+
+      [value="correct"] {
+        background: @df-blue;
+        color: white;
+
+        &::before {
+          content: "✔ "
+        }
+      }
+    }
+  }
+
+  @keyframes fade {
+    from { opacity: 0 }
+    to { opacity: 1 }
+  }
+
+  .answer {
+    display: none;
+    padding: 20px;
+    border: 1px solid @df-light-gray;
+    border-radius: 10px;
+    margin-top: 16px;
+    background: @df-off-white;
+
+    &.show {
+      display: block;
+      animation: 1s fade;
+    }
+  }
+}
