@@ -1,4 +1,4 @@
-﻿intro: In the wake of the #MeToo movement, many believe they know what sexual harassment is, but laws define sexual harassment and employer liability differently. To learn more about illegal sexual harassment, explore this hypothetical workplace scenario.
+﻿intro: In the wake of the #MeToo movement, it's important to know your rights. Many people believe they know what sexual harassment is, but laws define sexual harassment and employer liability differently. To learn more about illegal sexual harassment, let's explore a fairly simple hypothetical scenario.
 
 scenario: A low-level male supervisor tells a female employee an inappropriate sex joke about her breasts and points to them during a team meeting with other employees. During the next month, he tells the woman several other dirty jokes in front of other coworkers at lunch.
 
@@ -10,18 +10,10 @@ q: Is this illegal sexual harassment and can the company be liable?
 * No
 []
 a: **Yes, if**:
-It is unwelcome and “severe or pervasive.”  While telling one dirty joke could result in an employee reprimand, it most likely wouldn’t be enough for a legal claim of a hostile work environment. Because he did it repeatedly, it’s pervasive. Had he groped the employee one time, it would be severe enough. (*Glasgow v. Georgia Pacific*)
-
-\AND:
-
-Alters her working conditions for the worse such as affecting her psychologically or emotionally.
-
-\AND:
-
-The employer knew or should have known about it but didn’t take action.
+It is unwelcome and “severe or pervasive.”  While telling one dirty joke could result in an employee reprimand, it most likely wouldn’t be enough for a legal claim of a hostile work environment on its own. However, because he did it repeatedly, it’s pervasive. Had he groped the employee one time, it would be severe enough. (*Glasgow v. Georgia Pacific*)
 :end
 
-q: The supervisor said he was just joking, is the company liable?
+q: The supervisor said he was just joking. Is the company still liable?
 [.options]
 * Yes CORRECT
 * No
@@ -53,9 +45,7 @@ a: **Yes.** Under state law, if she doesn’t report the bad conduct to human re
 
 closer:
 
-## Background
-
-**(added by Thomas)**
+## What's going on here?
 
 Although we often think of harassment in terms of assault, the starting point for sexual harassment laws at both state and federal levels is discrimination: according to *Meritor Savings Bank v. Vinson* in 1986, sexual harassment is a form of sex discrimination. Under this view, the creation of a hostile work environment that alters the terms of employment, either directly or indirectly, is illegal.
 
