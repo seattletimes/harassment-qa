@@ -9,8 +9,13 @@ q: Is this illegal sexual harassment and can the company be liable?
 * Yes CORRECT
 * No
 []
-a: **Yes, if**:
-It is unwelcome and “severe or pervasive.”  While telling one dirty joke could result in an employee reprimand, it most likely wouldn’t be enough for a legal claim of a hostile work environment on its own. However, because he did it repeatedly, it’s pervasive. Had he groped the employee one time, it would be severe enough. (*Glasgow v. Georgia Pacific*)
+a: **Yes, if:**
+It is unwelcome and “severe or pervasive.”  While telling one dirty joke could result in an employee reprimand, it most likely wouldn’t be enough for a legal claim of a hostile work environment on its own. However, because he did it repeatedly, it’s pervasive. Had he groped the employee one time, it would be severe enough. ([*Glasgow v. Georgia Pacific*][glasgow])
+
+Additionally, the behavior must alter her working conditions for the worse such as affecting her psychologically or emotionally, and the employer must know or should have known about it but didn’t take action.
+
+\[glasgow]: https://advance.lexis.com/documentpage/?pdmfid=1000516&crid=b589908a-34a1-4204-a843-f15cfcd85eee&config=00JABhZjY0ZmI3Ny04MzkwLTRlMzAtYjllNC03MzdlOTgyYTY2MDEKAFBvZENhdGFsb2eA00v3ycmKG7ve38pfdpvF&pddocfullpath=%2fshared%2fdocument%2fcases%2furn%3acontentItem%3a3S3J-W5M0-003F-W161-00008-00&pddocid=urn%3acontentItem%3a3S3J-W5M0-003F-W161-00008-00&pdcontentcomponentid=506039&pdteaserkey=sr0&pditab=allpods&ecomp=g3J_kkk&earg=sr0&prid=89da1060-66e5-4def-8f11-508326c940c3
+
 :end
 
 q: The supervisor said he was just joking. Is the company still liable?
@@ -18,21 +23,31 @@ q: The supervisor said he was just joking. Is the company still liable?
 * Yes CORRECT
 * No
 []
-a: **Yes.** It doesn’t matter the intent of the supervisor. The court looks at the perspective of the victim and if a reasonable woman would believe the conduct was offensive.  (*Ellison v. Brady*)
+a: **Yes.** It doesn’t matter the intent of the supervisor. The court looks at the perspective of the victim and if a reasonable woman would believe the conduct was offensive.  ([*Ellison v. Brady*](https://www.leagle.com/decision/19911796924f2d87211631))
 
 q: What if, instead of a low-level supervisor telling dirty jokes, the woman’s manager says he might give her a raise if she dances dirty for him or his buddy?
 [.options]
 * The company is still liable CORRECT
 * There's no liability
 []
-a: This is the second form of sexual harassment – quid pro quo. **The employer is liable** when an employee must endure unwelcome sexual conduct to get job benefits or is treated worse for refusing. This includes the manager’s suggestion that involved a third party such as a friend or client. (*DeWater v. State* and *Schonauer v. DRC Entertainment*)
+a: This is the second form of sexual harassment – quid pro quo. *The employer is liable* when an employee must endure unwelcome sexual conduct to get job benefits or is treated worse for refusing. This includes the manager’s suggestion that involved a third party such as a friend or client. ([*DeWater v. State*][dewater] and [*Schonauer v. DCR Entertainment*][schonauer])
+
+\[dewater]: https://law.justia.com/cases/washington/supreme-court/1996/63285-5-1.html
+
+\[schonauer]: https://advance.lexis.com/documentpage/?pdmfid=1000516&crid=49e821e7-6bea-487a-9ee9-747152ebe2cc&config=00JABhZjY0ZmI3Ny04MzkwLTRlMzAtYjllNC03MzdlOTgyYTY2MDEKAFBvZENhdGFsb2eA00v3ycmKG7ve38pfdpvF&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-WX90-003F-W3MG-00008-00&pddocid=urn%3AcontentItem%3A3S3J-WX90-003F-W3MG-00008-00&pdcontentcomponentid=506038&pdteaserkey=sr0&pditab=allpods&ecomp=g3J_kkk&earg=sr0&prid=399addf1-b084-4708-a32d-4d831dc79c8c
+
+:end
 
 q: Can the woman or the coworkers who witnessed the inappropriate jokes be fired for reporting it?
 [.options]
 * Yes
 * No CORRECT
 []
-a: **No.** The person who reports the harassment is protected from an employer’s retaliation such as pay cut, negative performance review, forced resignation or termination. (Washington Law Against Discrimination and Title VII, *Allison v. housing Authority of City of Seattle*)
+a: **No.** The person who reports the harassment is protected from an employer’s retaliation such as pay cut, negative performance review, forced resignation or termination. (Washington Law Against Discrimination and Title VII, [*Allison v. Housing Authority of City of Seattle*][allison])
+
+\[allison]: https://advance.lexis.com/documentpage/?pdmfid=1000516&crid=ae7b5828-04f9-4dda-8030-ea2dc1b56694&config=00JABhZjY0ZmI3Ny04MzkwLTRlMzAtYjllNC03MzdlOTgyYTY2MDEKAFBvZENhdGFsb2eA00v3ycmKG7ve38pfdpvF&pddocfullpath=%2Fshared%2Fdocument%2Fcases%2Furn%3AcontentItem%3A3S3J-W010-003F-W349-00008-00&pddocid=urn%3AcontentItem%3A3S3J-W010-003F-W349-00008-00&pdcontentcomponentid=506039&pdteaserkey=sr8&pditab=allpods&ecomp=g3J_kkk&earg=sr8&prid=0d44e37c-b779-4269-b5f6-748b5ccd848b
+
+:end
 
 q: If she doesn’t tell human resources or a manager about the harassment, could it affect a lawsuit?
 [.options]
@@ -47,7 +62,7 @@ closer:
 
 ## What's going on here?
 
-Although we often think of harassment in terms of assault, the starting point for sexual harassment laws at both state and federal levels is discrimination: according to *Meritor Savings Bank v. Vinson* in 1986, sexual harassment is a form of sex discrimination. Under this view, the creation of a hostile work environment that alters the terms of employment, either directly or indirectly, is illegal.
+Although we often think of harassment in terms of assault, the starting point for sexual harassment laws at both state and federal levels is elsewhere: according to [*Meritor Savings Bank v. Vinson*][meritor] in 1986, sexual harassment is actually a form of sex discrimination. Under this view, the creation of a hostile work environment that alters the terms of employment, either directly or indirectly, is illegal.
 
 Further court cases clarified that sexual harassment can take two forms: either *quid pro quo*, in which job benefits or punishment are tied to sexual favors, or a hostile work environment. In the latter case, there are four elements defined in *Glasgow v. Georgia Pacific* that qualify:
 
@@ -61,8 +76,26 @@ Although Washington law and federal law are generally in agreement on what haras
 * Statute of limitations
   * State: She can file the day of the harassment and up to three years from the occurrence.
   * Federal: She must first file EEOC complaint, and then within 300 days. 
-* Penalties
-  * State: penalties and damages go here
-  * Federal: penalties and damages go here
+* Amount woman can be awarded in damages
+  * State: no cap
+  * Federal: cap of $300,000, plus punitive damages
+
+For this and other reasons, if you believe you have experienced sexual harassment, be sure to consult a lawyer for advice as soon as possible.
+
+\[meritor]: https://caselaw.findlaw.com/us-supreme-court/477/57.html
 
 :end
+
+help:
+
+A workplace discrimination complaint can be filed with the [Washington Human Rights Commission](https://www.hum.wa.gov/discrimination-complaint) or [Equal Employment Opportunity Commission](https://www.eeoc.gov/employees/charge.cfm).
+
+Phone - EEOC 1-800-669-4000
+
+For people who can’t afford a lawyer, [Washington LawHelp](https://www.washingtonlawhelp.org/issues/other-individual-rights/discrimination) provides a directory of assistance.
+
+:end
+
+
+
+

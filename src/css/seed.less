@@ -1,41 +1,113 @@
 @import "seattletimes";
 
-.constrained {
-  max-width: 800px;
-  margin: auto;
-}
+@accent: #41848e;
+@shade: rgb(128, 129, 133);
 
 @keyframes fade {
   from { opacity: 0 }
   to { opacity: 1 }
 }
 
+.splash {
+  position: relative;
+  margin: 60px auto;
+
+  @media @mobile {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    display: block;
+    font-size: 212px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0 auto;
+
+    @media @mobile {
+      font-size: 72px;
+    }
+
+    .top {
+      font-size: 60%;
+    }
+  }
+}
+
+.constrained {
+  max-width: 800px;
+  padding: 0 16px;
+  margin: auto;
+}
+
+.byline {
+  text-align: center;
+  @media @mobile {
+    padding-top: 0px;
+  }
+}
+
+.intro {
+  font-style: italic;
+}
+
 .scenario {
-  max-width: 500px;
+  max-width: 600px;
   font-family: @df-sans;
   margin: 32px auto;
   padding: 32px;
-  border: 1px solid @df-light-gray;
-  border-radius: 8px;
+  background: @df-off-white;
+  font-size: 22px;
+  text-align: center;
+
+  @media @mobile {
+    font-size: 19px;
+    padding: 16px;
+    margin: 16px auto;
+  }
 
   p {
     margin: 0;
   }
 }
 
+.questions {
+  margin-bottom: 60px;
+}
+
 .question {
   padding: 24px 0;
   margin-top: 16px;
-  border-top: 1px dotted @df-light-gray;
   font-family: @df-sans;
   display: none;
 
+  @media @mobile {
+    padding: 16px 0;
+  }
+
   &:first-child {
     display: block;
+    margin-top: 0;
   }
 
   .text {
     font-weight: bold;
+    font-size: 36px;
+    margin: 40px auto 20px;
+    padding: 0 40px;
+    max-width: 75%;
+    text-align: center;
+    color: @accent;
+    font-family: @df-serif;
+
+    @media @mobile {
+      font-size: 20px;
+      max-width: 100%;
+    }
+
+    .big {
+      font-size: 200%;
+    }
   }
 
   .options {
@@ -44,11 +116,13 @@
 
     button {
       background: white;
-      border: 1px solid @df-light-gray;
+      border: 1px solid @df-dark-gray;
       padding: 8px 16px;
       margin: 0 12px;
       border-radius: 4px;
       cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
 
       &:hover, &:focus:not(:disabled) {
         background: @df-light-gray;
@@ -63,17 +137,26 @@
   .answer {
     display: none;
     padding: 20px;
-    border: 1px solid @df-light-gray;
-    border-radius: 10px;
     margin-top: 16px;
     background: @df-off-white;
+    text-align: center;
+
+    @media @mobile {
+      text-align: left;
+    }
+
+    strong {
+      display: block;
+      font-size: 120%;
+      text-align: center;
+    }
   }
 
   &.answered {
 
     .chosen {
       background: @df-light-gray;
-      border: 3px solid @df-middle-gray;
+      border: 2px solid @df-off-white;
 
       &::before {
         content: "✘ ";
@@ -81,7 +164,7 @@
     }
 
     [value="correct"] {
-      background: @df-blue;
+      background: @accent;
       color: white;
 
       &::before {
@@ -99,4 +182,41 @@
       animation: fade .5s linear .5s both;
     }
   }
+}
+
+hr {
+  margin: 0 auto;
+  width: 300px;
+  height: 8px;
+  border: none;
+  background: @accent;
+  border-radius: 2px;
+}
+
+aside.sidebar {
+  float: right;
+  width: 300px;
+  font-family: @df-sans;
+  padding: 20px;
+  font-size: 16px;
+  background: @df-off-white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
+  @media @mobile {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+footer.contact {
+  font-size: 16px;
+  font-style: italic;
+  padding: 30px 0;
 }
