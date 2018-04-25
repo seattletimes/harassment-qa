@@ -124,7 +124,7 @@
       font-weight: bold;
       text-transform: uppercase;
 
-      &:hover, &:focus:not(:disabled) {
+      &:hover:not(:disabled), &:focus:not(:disabled) {
         background: @df-light-gray;
       }
 
@@ -132,6 +132,12 @@
         cursor: default;
       }
     }
+  }
+
+  .hint {
+    color: @df-middle-gray;
+    font-size: 16px;
+    text-align: center;
   }
 
   .answer {
@@ -161,6 +167,10 @@
       &::before {
         content: "✘ ";
       }
+    }
+
+    .hint {
+      display: none;
     }
 
     [value="correct"] {
@@ -193,21 +203,30 @@ hr {
   border-radius: 2px;
 }
 
+.closer {
+  .display-flex();
+  .align-items(flex-start);
+
+  @media @mobile {
+    display: block;
+  }
+
+  aside.sidebar {
+    order: 2;
+    .flex(0 0 260px);
+  }
+}
+
 aside.sidebar {
-  float: right;
-  width: 300px;
   font-family: @df-sans;
   padding: 20px;
   font-size: 16px;
   background: @df-off-white;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-top: 80px;
 
   @media @mobile {
-    float: none;
-    width: 100%;
     margin-left: 0;
-    margin-bottom: 0;
   }
 
   h2 {

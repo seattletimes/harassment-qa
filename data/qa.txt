@@ -60,8 +60,6 @@ a: **Yes.** Under state law, if she doesn’t report the bad conduct to human re
 
 closer:
 
-## What's going on here?
-
 Although we often think of harassment in terms of assault, the starting point for sexual harassment laws at both state and federal levels is elsewhere: according to [*Meritor Savings Bank v. Vinson*][meritor] in 1986, sexual harassment is actually a form of sex discrimination. Under this view, the creation of a hostile work environment that alters the terms of employment, either directly or indirectly, is illegal.
 
 Further court cases clarified that sexual harassment can take two forms: either *quid pro quo*, in which job benefits or punishment are tied to sexual favors, or a hostile work environment. In the latter case, there are four elements defined in *Glasgow v. Georgia Pacific* that qualify:

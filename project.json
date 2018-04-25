@@ -6,15 +6,15 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2018/know-your-rights"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Know your rights",
+  "description": "In the wake of the #MeToo movement, use our interactive quiz to learn the actual laws defining sexual harassment and employer liability",
+  "url": "https://projects.seattletimes.com/2018/know-your-rights/",
   "image": "assets/social.jpg",
   "sheets": [],
-  "standout": false,
-  "embedded": true,
+  "standout": true,
+  "embedded": false,
   "production": false
 }

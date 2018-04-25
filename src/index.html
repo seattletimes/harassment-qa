@@ -40,7 +40,7 @@
           return `<button value="${isCorrect ? "correct" : "" }">${text}</button>`;
         }
         %>
-        <% archieml.qa.questions.forEach(function(row) { %>
+        <% archieml.qa.questions.forEach(function(row, i) { %>
         <div class="question">
           <hr>
           <div class="text">
@@ -50,18 +50,29 @@
           <div class="options">
             <% row.options.forEach(function(o) { print(makeButton(o)) }) %>
           </div>
+          <% if (i < archieml.qa.questions.length - 1) { %>
+          <div class="hint">
+            Choose an option to continue to the next question.
+          </div>
+          <% } %>
           <div class="answer"><%= t.renderMarkdown(row.a) %></div>
         </div>
         <% }) %>
       </div>
 
-      <aside class="sidebar">
-        <h2>If you need help:</h2>
-        <%= t.renderMarkdown(archieml.qa.help) %>
-      </aside>
+
 
       <div class="closer">
-        <%= t.renderMarkdown(archieml.qa.closer) %>
+
+        <aside class="sidebar">
+          <h2>Need help?</h2>
+          <%= t.renderMarkdown(archieml.qa.help) %>
+        </aside>
+
+        <div class="column">
+          <h2>What's going on here?</h2>
+          <%= t.renderMarkdown(archieml.qa.closer) %>
+        </div>
       </div>
     </main>
 
