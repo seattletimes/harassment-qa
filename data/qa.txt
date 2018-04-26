@@ -1,6 +1,6 @@
 ﻿intro: In the wake of the #MeToo movement, it's important to know your rights. Many people believe they know what sexual harassment is, but laws define sexual harassment and employer liability differently. To learn more about illegal sexual harassment, let's explore a fairly simple hypothetical scenario.
 
-scenario: A low-level male supervisor tells a female employee an inappropriate sex joke about her breasts and points to them during a team meeting with other employees. During the next month, he tells the woman several other dirty jokes in front of other coworkers at lunch.
+scenario: A low-level male supervisor tells a female employee an inappropriate sex joke about her breasts and points to them during a team meeting with other employees. During the next month, he tells the woman several other dirty jokes in front of co-workers at lunch.
 
 [questions]
 
@@ -12,18 +12,25 @@ q: Is this illegal sexual harassment and can the company be liable?
 a: **Yes, if:**
 It is unwelcome and “severe or pervasive.”  While telling one dirty joke could result in an employee reprimand, it most likely wouldn’t be enough for a legal claim of a hostile work environment on its own. However, because he did it repeatedly, it’s pervasive. Had he groped the employee one time, it would be severe enough. ([*Glasgow v. Georgia Pacific*][glasgow])
 
-Additionally, the behavior must alter her working conditions for the worse such as affecting her psychologically or emotionally, and the employer must know or should have known about it but didn’t take action.
+Additionally, the behavior must alter her working conditions for the worse, such as affecting her psychologically or emotionally, and the employer must know or should have known about it but didn’t take action.
 
 \[glasgow]: https://advance.lexis.com/documentpage/?pdmfid=1000516&crid=b589908a-34a1-4204-a843-f15cfcd85eee&config=00JABhZjY0ZmI3Ny04MzkwLTRlMzAtYjllNC03MzdlOTgyYTY2MDEKAFBvZENhdGFsb2eA00v3ycmKG7ve38pfdpvF&pddocfullpath=%2fshared%2fdocument%2fcases%2furn%3acontentItem%3a3S3J-W5M0-003F-W161-00008-00&pddocid=urn%3acontentItem%3a3S3J-W5M0-003F-W161-00008-00&pdcontentcomponentid=506039&pdteaserkey=sr0&pditab=allpods&ecomp=g3J_kkk&earg=sr0&prid=89da1060-66e5-4def-8f11-508326c940c3
 
 :end
+
+q: If she doesn’t tell human resources or a manager about the harassment, could it affect a lawsuit?
+[.options]
+* Yes, it will affect liability CORRECT
+* No, there's no effect
+[]
+a: **Yes.** Under state law, if she doesn’t report the bad conduct to human resources or a manager, the employer may not be liable for the actions of a low-level supervisor who doesn’t control pay and working conditions. 
 
 q: The supervisor said he was just joking. Is the company still liable?
 [.options]
 * Yes CORRECT
 * No
 []
-a: **Yes.** It doesn’t matter the intent of the supervisor. The court looks at the perspective of the victim and if a reasonable woman would believe the conduct was offensive.  ([*Ellison v. Brady*](https://www.leagle.com/decision/19911796924f2d87211631))
+a: **Yes.** The intent of the supervisor does not matter. The court looks at the perspective of the victim and if a reasonable woman would believe the conduct was offensive.  ([*Ellison v. Brady*](https://www.leagle.com/decision/19911796924f2d87211631))
 
 q: What if, instead of a low-level supervisor telling dirty jokes, the woman’s manager says he might give her a raise if she dances dirty for him or his buddy?
 [.options]
@@ -38,7 +45,7 @@ a: This is the second form of sexual harassment – quid pro quo. *The employer 
 
 :end
 
-q: Can the woman or the coworkers who witnessed the inappropriate jokes be fired for reporting it?
+q: Can the woman or the co-workers who witnessed the inappropriate jokes be fired for reporting it?
 [.options]
 * Yes
 * No CORRECT
@@ -49,44 +56,38 @@ a: **No.** The person who reports the harassment is protected from an employer�
 
 :end
 
-q: If she doesn’t tell human resources or a manager about the harassment, could it affect a lawsuit?
-[.options]
-* Yes, it will affect liability CORRECT
-* No, there's no effect
-[]
-a: **Yes.** Under state law, if she doesn’t report the bad conduct to human resources or a manager, the employer may not be liable for the actions of a low-level supervisor who doesn’t control pay and working conditions. 
-
 []
 
 closer:
 
-Although we often think of harassment in terms of assault, the starting point for sexual harassment laws at both state and federal levels is elsewhere: according to [*Meritor Savings Bank v. Vinson*][meritor] in 1986, sexual harassment is actually a form of sex discrimination. Under this view, the creation of a hostile work environment that alters the terms of employment, either directly or indirectly, is illegal.
+Although we often think of harassment in terms of assault, the starting point for sexual-harassment laws at both state and federal levels is elsewhere: According to [*Meritor Savings Bank v. Vinson*][meritor] in 1986, sexual harassment is actually a form of sex discrimination. Under this view, the creation of a hostile work environment that alters the terms of employment, either directly or indirectly, is illegal.
 
 Further court cases clarified that sexual harassment can take two forms: either *quid pro quo*, in which job benefits or punishment are tied to sexual favors, or a hostile work environment. In the latter case, there are four elements defined in *Glasgow v. Georgia Pacific* that qualify:
 
-* the harassment must be unwelcome,
-* it must be related to the sex of the victim,
+* The harassment must be unwelcome,
+* It must be related to the sex of the victim,
 * it must affect the terms of the employment, and 
 * it must be "imputed to the employer," meaning that they knew or should have known of the conduct, but didn't take action.
 
 Although Washington law and federal law are generally in agreement on what harassment is, there are differences in the timing and penalties that lawyers may consider when filing suit:
 
 * Statute of limitations
-  * State: She can file the day of the harassment and up to three years from the occurrence.
-  * Federal: She must first file EEOC complaint, and then within 300 days. 
-* Amount woman can be awarded in damages
-  * State: no cap
-  * Federal: cap of $300,000, plus punitive damages
-
-For this and other reasons, if you believe you have experienced sexual harassment, be sure to consult a lawyer for advice as soon as possible.
+  * State: Complainant can file the day of the harassment and up to three years from the occurrence.
+  * Federal: Within 300 days, a complainant must first file EEOC complaint. 
+* Amount a victim can be awarded in damages
+  * State: no punitive damages
+  * Federal: punitive damages, cap based on size of employer
+Please note that the information in this article is provided for informational purposes only, and is not legal advice. If you believe you have experienced sexual harassment, be sure to consult a lawyer for advice as soon as possible.
 
 \[meritor]: https://caselaw.findlaw.com/us-supreme-court/477/57.html
+
+\[tips]: https://projects.seattletimes.com/news-tips/
 
 :end
 
 help:
 
-A workplace discrimination complaint can be filed with the [Washington Human Rights Commission](https://www.hum.wa.gov/discrimination-complaint) or [Equal Employment Opportunity Commission](https://www.eeoc.gov/employees/charge.cfm).
+A workplace discrimination complaint can be filed with the [Washington Human Rights Commission](https://www.hum.wa.gov/discrimination-complaint) or the federal [Equal Employment Opportunity Commission](https://www.eeoc.gov/employees/charge.cfm).
 
 Phone - EEOC 1-800-669-4000
 
